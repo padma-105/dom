@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bom-1</title>
+    <style>
+       body{
+        box-sizing: border-box;
+        margin: 0px;
+        text-align: center;
+       }
+        img{
+            width: 12%;
+            background-color: #ccc !important ;
+        }
+        #container{
+            grid-template-columns: repeat(autofill,minmax(350px,1fr));
+        }
+        .div1{
+            border: 0.2rem groove #ccc;
+            border-radius: 2rem;
+            background-color: #eee;
+            padding: 2rem;
+            margin: 2rem;
+            
+        }
+        input{
+            width: 20%;
+          text-align: center;
+          margin: 1rem;
+          padding: 1rem;
+        }
+       
+    </style>
+</head>
+<body>
+
+    
+
+         <input type="text" name="input" id="input" placeholder="Search products">
+
+        <div id="container"> </div>
+
+      <script src="./script.js"></script>
+
+</body>
+</html>
